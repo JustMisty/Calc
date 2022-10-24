@@ -7,11 +7,7 @@ pipeline {
                 bat "build.bat"
             }
         }
-        stage('test') {
-            steps {
-                bat "buildTest.bat"
-            }
-        }
+      
  }
 	    
     }
